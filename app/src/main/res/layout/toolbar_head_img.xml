@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar_img"
+        android:layout_alignTop="@+id/toptop"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bg_navigationbar" />
+
+    <LinearLayout
+        android:id="@+id/toptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/toolbar_img_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toptop"
+        android:gravity="center"
+        android:paddingBottom="@dimen/ToolBarBackTextPadiing"
+        android:paddingTop="@dimen/ToolBarBackTextPadiing"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ToolBarMainTextSize" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar_img_title"
+        android:layout_alignTop="@+id/toolbar_img_title">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="@dimen/ToolBarMainTextSize" />
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
+

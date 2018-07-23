@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="ToolBarBackTextPadiing">16dp</dimen>
+    <dimen name="ToolBarTextPadiing">15dp</dimen>
+    <dimen name="ToolBarMainTextSize">20sp</dimen>
+
+</resources>
