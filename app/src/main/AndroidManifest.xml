@@ -18,8 +18,9 @@
         </activity>
         <activity
             android:name=".FullScreenActivity"
-            android:theme="@style/Theme.imgFullScreen">
-        </activity>
+            android:theme="@style/Theme.imgFullScreen" />
+        <activity android:name=".ImmersionActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>

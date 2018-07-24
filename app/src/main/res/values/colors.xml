@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="transparent">#00000000</color>
     <color name="white">#fff</color>
+    <color name="background_yellow">#fbd415</color>
+    <color name="textcolor_black">#163045</color>
 </resources>
